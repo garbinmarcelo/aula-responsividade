@@ -36,3 +36,7 @@ nav ul li a{
 .receita img{
 	opacity: 1;
 }
+
+.descricao{
+	width: 100%;
+}

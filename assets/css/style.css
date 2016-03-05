@@ -138,3 +138,28 @@ label{
 	font: 1em Rokkitt, Tahoma;
 	margin: 10px;
 }
+
+.clear{
+	clear: both;
+}
+
+h2{
+	font: 2.5em Rokkitt, Tahoma;
+	font-weight: bold;
+	color: #F00;
+}
+
+.descricao{
+	width: 50%;
+	float: right;
+	text-align: justify;
+}
+
+.descricao ul{
+	font: 2em Rokkitt, Tahoma;
+	margin: 30px;
+}
+
+.escondido{
+	display: none;
+}

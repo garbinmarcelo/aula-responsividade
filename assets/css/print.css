@@ -1,1 +1,21 @@
+nav, #banner, footer, .btn{
+	display: none;
+}
 
+.descricao, ul{
+	font-size: 0.8em;
+}
+
+header img{
+	width: 50%;
+}
+
+.escondido{
+	display: block;
+	text-align: center;
+	font-size: 1em;
+}
+
+.receita img{
+	opacity: 1;
+}
