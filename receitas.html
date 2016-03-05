@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Churrasquito</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/tablet.css" media="(max-width:600px)">
+	<link rel="stylesheet" type="text/css" href="assets/css/mobile.css" media="(max-width:480px)">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+	<script type="text/javascript" src="assets/js/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.cycle2.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.js"></script>
+	<script type="text/javascript" src="assets/js/wow.min.js"></script>
+</head>
+<body>
+	<header>
+		<a href="index.html" title="Churrasquito">
+			<img src="assets/imgs/logo.png" title="Churrasquito">
+		</a>
+	</header><!-- /header -->
+	<nav>
+		<a id="btnmenu"  href="#" title="Abrir Menu">
+			<img src="assets/imgs/menu2.png" alt="Menu">
+		</a>
+		<ul id="menu">
+			<li><a href="index.html" title="Home">Home</a></li>
+			<li><a href="sobre.html" title="Sobre">Sobre</a></li>
+			<li><a href="receitas.html" title="Receitas">Receitas</a></li>
+			<li><a href="contato.html" title="Contato">Contato</a></li>
+		</ul>
+	</nav>
+
+	<div id="banner" class="cycle-slideshow">
+		<img src="assets/imgs/1.jpg" alt="Costelinha">
+		<img src="assets/imgs/2.jpg" alt="Receitas Suinas">
+		<img src="assets/imgs/3.jpg" alt="Receitas Especiais">
+	</div>
+
+	<main>
+		<h1>Receitas</h1>
+		
+		<div class="receita">
+			<img src="assets/imgs/foto1.jpg" alt="Costelinha">
+			<p>
+				<strong>Costelinha Suina ao Molho Barbie Kill</strong>
+			</p>
+			<p>
+				<a href="costelinha.html" title="Costelinha" class="btn">
+					Ver Receita
+				</a>
+			</p>
+		</div>
+
+		<div class="receita">
+			<img src="assets/imgs/foto2.jpg" alt="Espetinho de Gato">
+			<p>
+				<strong>Espetinho de Gato</strong>
+			</p>
+			<p>
+				<a href="espetinho.html" title="Espetinho de Gato" class="btn">
+					Ver Receita
+				</a>
+			</p>
+		</div>
+
+		<div class="receita">
+			<img src="assets/imgs/foto3.jpg" alt="Molho Especial de Churrasco">
+			<p>
+				<strong>Molho Especial de Churrasco</strong>
+			</p>
+			<p>
+				<a href="molho-churrasco.html" title="Molho Especial de Churrasco" class="btn">
+					Ver Receita
+				</a>
+			</p>
+		</div>
+
+		<div class="receita">
+			<img src="assets/imgs/foto4.jpg" alt="Cebola do Autibéqui">
+			<p>
+				<strong>Cebola do Autibéqui</strong>
+			</p>
+			<p>
+				<a href="cebola-autibequi.html" title="Cebola do Autibéqui" class="btn">
+					Ver Receita
+				</a>
+			</p>
+		</div>
+		
+	</main>
+
+	<footer>
+		<p>Churrasquito - Todos os direitos reservados<br>Desenvolvido por Marcelo Garbin</p>
+		<p>
+			<a href="http://www.facebook.com" title="Facebook">
+				<img src="assets/imgs/face.png" alt="Facebook">
+			</a>
+			<a href="http://www.twitter.com" title="Twitter">
+				<img src="assets/imgs/twitter.png" alt="Twitter">
+			</a>
+			<a href="contato.html" title="Contato">
+				<img src="assets/imgs/email.png" alt="Contato">
+			</a>
+		</p>
+	</footer>
+
+<script type="text/javascript">
+	$('#btnmenu').click(function(){
+		$('#menu').toggle();
+	});
+</script>
+</body>
+</html>

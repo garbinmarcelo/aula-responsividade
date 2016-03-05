@@ -121,3 +121,20 @@ footer a:hover{
 #banner img{
 	width: 100%;
 }
+
+.box{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	width: 90%;
+	padding: 10px;
+}
+
+.box:focus{
+	background: #F78C8C;
+}
+
+label{
+	font: 1em Rokkitt, Tahoma;
+	margin: 10px;
+}
