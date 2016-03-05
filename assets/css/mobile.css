@@ -1,0 +1,34 @@
+header img{
+	width: 80%;
+}
+
+#menu{
+	display: none;
+}
+
+#btnmenu{
+	display: block;
+}
+
+nav ul li{
+	display: block;
+	list-style: none;
+}
+
+nav ul li a{
+	width: 100%;
+	font: 2em Rokkitt, Tahoma, Arial;
+	color: #FFF;
+	padding: 10px 0px;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+}
+
+.receita{
+	width: 100%;
+}
+
+.receita img{
+	opacity: 1;
+}
